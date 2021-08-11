@@ -37,7 +37,7 @@ class Screen {
     textAlign(CENTER);
     text("TOPPA", width/2, height/5);
     text("画面を一回クリックしてから", width/2, height/4+50);
-    text("キーボードから難易度を選択してね！", width/2, height/3+30);
+    text("キーボードで難易度を選択してね！", width/2, height/3+30);
     text("1：やさしい", width/2, height/2);
     text("2：ふつう", width/2, height/2+50);
     text("3：むずかしい", width/2, height/2+100);
