@@ -1,4 +1,4 @@
-/* @pjs preload="images/background1.jpg ,images/background2.jpg,images/background3.jpeg,images/goal1.jpeg,images/goal2.jpg,images/goal3.jpg,images/hunter1.jpg,images/hunter2.jpg,images/hunter3.jpg,images/player1.jpg,images/player2.jpg,images/player3.jpg,images/treasure.jpg"; */
+/* @pjs preload="images/background1.jpg ,images/background2.jpg,images/background.jpeg,images/goal1.jpeg,images/goal2.jpg,images/goal3.jpg,iamges/hunter1.jpg,images/hunter2.jpg,images/hunter.jpg,images/player1.jpg,images/player2.jpg,images/player3.jpg,images/treasure.jpg"; */
 boolean button = false;
 
 class Board {
@@ -35,12 +35,11 @@ class Screen {
     fill(0);
     textSize(32);
     textAlign(CENTER);
-    text("TOPPA", width/2, 200);
-    text("なんいど", width/2, 300);
-    text("1：やさしい", 395, height/2-50);
-    text("2：ふつう", 380, height/2);
-    text("3：むずかしい", 410, height/2+50);
-    text("からせんたくしてください", width/2, height/2+100);
+    text("TOPPA", width/2, height/4);
+    text("難易度を選択してください", width/2, height/3);
+    text("1：やさしい", width/2, height/2-50);
+    text("2：ふつう", width/2, height/2);
+    text("3：むずかしい", width/2, height/2+50);
   }
 
   void Run() {
@@ -191,7 +190,7 @@ int NoH = 0;
 int n = 0;
 
 void setup() {
-  size(840, 840);
+  size(600, 600);
   PFont font = createFont("Meiryo", 50);
   textFont(font);
 }
