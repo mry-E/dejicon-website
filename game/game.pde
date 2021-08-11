@@ -35,12 +35,13 @@ class Screen {
     fill(0);
     textSize(32);
     textAlign(CENTER);
-    text("TOPPA", width/2, height/4);
-    text("難易度を選択してください", width/2, height/3);
+    text("TOPPA", width/2, height/5);
+    text("画面を一回クリックしてから", width/2, height/4);
+    text("キーボードから難易度を選択してね！", width/2, height/3);
     text("1：やさしい", width/2, height/2-50);
     text("2：ふつう", width/2, height/2);
     text("3：むずかしい", width/2, height/2+50);
-    text("画面をクリックしてね！", width/2, height-100);
+    
   }
 
   void Run() {
