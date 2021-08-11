@@ -47,7 +47,7 @@ class Screen {
     fill(0);
     textSize(32);
     textAlign(CENTER);
-    text("STAGE CLEAR!", width/2, 300);
+    text("STAGE CLEAR!", width/2, height/3);
     text("spaceを押して次のステージに進んでね！", width/2, height/2);
   }
 
@@ -56,7 +56,7 @@ class Screen {
     fill(0);
     textSize(32);
     textAlign(CENTER);
-    text("GAME OVER!", width/2, 300);
+    text("GAME OVER!", width/2, height/3);
     text("獲得した宝箱の数: " + Tcnt + "個", width/2, height/2);
     text("Rキーでリトライ!", width/2, height-50);
   }
@@ -65,7 +65,7 @@ class Screen {
     fill(0);
     textSize(32);
     textAlign(CENTER);
-    text("GAME CLEAR!", width/2, 300);
+    text("GAME CLEAR!", width/2, height/3);
     text("獲得した宝箱の数: " + Tcnt + "個", width/2, height/2);
   }
 }
