@@ -40,6 +40,7 @@ class Screen {
     text("1：やさしい", width/2, height/2-50);
     text("2：ふつう", width/2, height/2);
     text("3：むずかしい", width/2, height/2+50);
+    text("画面をクリックしてね！", width/2, height-100);
   }
 
   void Run() {
