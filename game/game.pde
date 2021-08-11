@@ -1,4 +1,4 @@
-/* @pjs preload="images/background1.jpg ,images/background2.jpg,images/background.jpeg,images/goal1.jpeg,images/goal2.jpg,images/goal3.jpg,iamges/hunter1.jpg,images/hunter2.jpg,images/hunter.jpg,images/player1.jpg,images/player2.jpg,images/player3.jpg,images/treasure.jpg"; */
+/* @pjs preload="images/background1.jpg ,images/background2.jpg,images/background3.jpeg,images/goal1.jpeg,images/goal2.jpg,images/goal3.jpg,images/hunter1.jpg,images/hunter2.jpg,images/hunter3.jpg,images/player1.jpg,images/player2.jpg,images/player3.jpg,images/treasure.jpg"; */
 boolean button = false;
 
 class Board {
