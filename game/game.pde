@@ -107,7 +107,6 @@ class Hunter {
   Hunter (int size0, int i, int len) {
     int randX = int(random(size0/len*i, size0/len*(i+1)));
     int randY = int(random(0, size0/2));
-    //println(randX, randY);
     r = width/size0;
     x = randX*r+(width/size0-width/(size0*2));
     y = randY*r+(height/size0-height/(size0*2));
@@ -341,7 +340,6 @@ void Run() {
     }
     sequal = false;
     scene = 2;
-    println(n);
   }
 }
 
