@@ -326,8 +326,6 @@ void mousePressed() {
 
 void GameOver() {
   s.End();
-  Tcnt = 0;
-  Scnt = 0;
 }
 
 void Run() {
@@ -349,8 +347,6 @@ void Run() {
 
 void Clear() {
   s.Clear();
-  Tcnt = 0;
-  Scnt = 0;
 }
 
 void background_img() {
